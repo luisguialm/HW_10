@@ -1,3 +1,4 @@
+# By Luis Andres Guillen and Hartford Johnsson
 co2_report<-function(country, year{
   dat<-read.csv("data/co2_emissions_tonnes_per_person_gapminder.csv")
   m<-paste0("X",year)
