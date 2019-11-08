@@ -5,6 +5,8 @@ date: "11/7/2019"
 output: html_document
 ---
 
+Reads the .csv file and does stuff.
+
 co2_report <- function(country, year){
   emissions <- read.csv("co2_emissions_tonnes_per_person_gapminder.csv")
   xyear <- paste0("X", year)
