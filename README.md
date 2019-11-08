@@ -7,6 +7,7 @@
 3. Run the function by inputing the country and the year. E.g. `co2_report("Country",year)`
 
 The function will tell the grade the country gets based on its emissions per capita, based on the following key:
+
   A - Bottom 10% of emitters in that year  
   B - Bottom 11-20% emitters in that year   
   C - Bottom 21-30% emitters in that year   
