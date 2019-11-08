@@ -8,8 +8,8 @@ co2_report<-function(dat,country=NULL, year=NULL){
     value <- dat[dat$country %in% country,names(dat)==m]
     all_countries<-  dat[,names(dat)==m]
   }  
-  stopifnot(!is.nan(value))
-  stopifnot(!is.na(value))
+  stopifnot(is.nan(value))
+  stopifnot(is.na(value))
 
   # A - Bottom 10% of emitters in that year  
   # B- Bottom 11-20% emitters in that year   
